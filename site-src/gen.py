@@ -80,7 +80,6 @@ def page(name, title, description, body, extra_head="", main_class="doc"):
 <li><a href="privacy.html">Privacy policy</a></li>
 <li><a href="terms.html">Terms of use</a></li>
 <li><a href="licences.html">Licences</a></li>
-<li><a href="{REPO}">Source code</a></li>
 <li><a href="{REPO}/issues">Contact</a></li>
 </ul></nav>
 </div>
@@ -155,7 +154,6 @@ FAQ = [
     ("How accurate is it?", "Whole numbers and fractions are worked exactly. Roots, π and trigonometry are kept exact and turned into a decimal only for display, to the number of figures you choose. Graph readings and the triangle solver give rounded answers."),
     ("Can it take a photo of a sum?", "No. Sums are typed. Reading sums from photos is unreliable, and a wrong reading gives a wrong answer that looks right."),
     ("How do I move to a new phone?", "In Settings, Backup, save a backup file. Install Axiom on the new phone and restore from that file."),
-    ("Can I see the source code?", f'Yes. It is published in full at <a href="{REPO}">github.com/CustomGPTer/axiom</a>.'),
 ]
 
 
@@ -337,7 +335,7 @@ def privacy():
 def terms():
     s = [
         ("who", "Who provides Axiom", "<p>Axiom is provided by Jonathan Jackson, an individual developer in the United Kingdom, free of charge.</p>"),
-        ("licence", "Your licence", f'<p>You may install and use Axiom on any device you own or control, and pass the unchanged app file on to others, free of charge. Axiom\'s source code is published at <a href="{REPO}">{REPO.replace("https://", "")}</a>. The software Axiom is built on keeps its own licences, set out on the <a href="licences.html">licences page</a>.</p>'),
+        ("licence", "Your licence", f'<p>You may install and use Axiom on any device you own or control, and pass the unchanged app file on to others, free of charge. Axiom\'s source code is not published. You may change Axiom for your own use and reverse-engineer it to debug such changes, as the licences of the libraries it uses require. The software Axiom is built on keeps its own licences, set out on the <a href="licences.html">licences page</a>.</p>'),
         ("what", "What Axiom is", "<p>Axiom is a calculator. It is checked with care: see the home page for how. It is still software, and software can be wrong.</p>"),
         ("checking", "Checking important results", "<p>Do not rely on Axiom alone for a result that safety, health, money, an exam mark or a legal duty depends on. Check such results by a second, independent method. In particular, structural, electrical, medical and financial calculations must be checked by a suitably qualified person.</p><p>Graph readings and triangle-solver answers are rounded. The constants are published recommended values and the formula sheets are a reminder, not a textbook.</p>"),
         ("exams", "Exams", "<p>Axiom does algebra and stores formulas, so it is not allowed in most exams. Check your exam board's rules.</p>"),
@@ -353,8 +351,8 @@ def terms():
 
 def licences():
     s = [
-        ("itself", "Axiom itself", f'<p>Axiom is copyright &copy; 2026 Jonathan Jackson. It is free to install, use and pass on unchanged, as set out in the <a href="terms.html">terms of use</a>. Its source code is published in full at <a href="{REPO}">{REPO.replace("https://", "")}</a>.</p>'),
-        ("symja", "The algebra engine", '<p>Roots, trigonometry, logarithms, exact forms and algebra use <a href="https://github.com/axkr/symja_android_library">Symja</a> (matheclipse-core, parser and external), copyright the Symja authors, under the GNU Lesser General Public License, version 3. Axiom uses the library unmodified. Because Axiom\'s own source is published, the library can be replaced with a version of your choosing and the app rebuilt. The licence text is at <a href="https://www.gnu.org/licenses/lgpl-3.0.html">gnu.org/licenses/lgpl-3.0.html</a>.</p>'),
+        ("itself", "Axiom itself", f'<p>Axiom is copyright &copy; 2026 Jonathan Jackson. It is free to install, use and pass on unchanged, as set out in the <a href="terms.html">terms of use</a>. All other rights are reserved.</p>'),
+        ("symja", "The algebra engine", '<p>Roots, trigonometry, logarithms, exact forms and algebra use <a href="https://github.com/axkr/symja_android_library">Symja</a> (matheclipse-core, parser and external), copyright the Symja authors, under the GNU Lesser General Public License, version 3. Axiom uses the library unmodified, as a separate part of the app. As that licence requires, you may change Axiom for your own use, including putting in a different version of the library, and reverse-engineer it to debug such changes. The licence text is at <a href="https://www.gnu.org/licenses/lgpl-3.0.html">gnu.org/licenses/lgpl-3.0.html</a>.</p>'),
         ("software", "Other software", "<ul><li>Apfloat, copyright Mikko Tommila. MIT licence.</li><li>Hipparchus, copyright the Hipparchus project. Apache License 2.0.</li><li>Guava, fastutil, Apache Commons (Lang, Text, IO, Codec, CSV), Log4j API, Jackson, LogicNG, Paguro, j2html and javap. Apache License 2.0.</li><li>JGraphT (EPL or LGPL), Kryo (BSD), Trove (LGPL), Choco Solver (BSD) and Janino (BSD).</li><li>Jetpack Compose and AndroidX, copyright The Android Open Source Project. Apache License 2.0.</li><li>Kotlin, copyright JetBrains s.r.o. and Kotlin contributors. Apache License 2.0.</li></ul>"),
         ("type", "Typefaces", '<p>The app is set in Inter, copyright 2020 The Inter Project Authors. This site is set in Literata, copyright The Literata Project Authors, and Atkinson Hyperlegible, copyright Braille Institute of America. All three are used under the SIL Open Font License, version 1.1; the licence files for the two site typefaces are in <a href="assets/fonts/">assets/fonts</a>.</p>'),
         ("data", "Constants", "<p>The physical constants are the 2022 CODATA recommended values published by the US National Institute of Standards and Technology.</p>"),
