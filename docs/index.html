@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axiom: a free scientific calculator for Android, with exact answers</title>
+<meta name="description" content="Axiom is a scientific calculator for Android with a textbook display, exact answers, algebra, equation solving, graphs, statistics, matrices and a unit converter. Free, no adverts, no account. It cannot go online.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/axiom/">
+<meta name="theme-color" content="#f4f5f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Axiom">
+<meta property="og:title" content="Axiom: a free scientific calculator for Android, with exact answers">
+<meta property="og:description" content="Axiom is a scientific calculator for Android with a textbook display, exact answers, algebra, equation solving, graphs, statistics, matrices and a unit converter. Free, no adverts, no account. It cannot go online.">
+<meta property="og:url" content="https://customgpter.github.io/axiom/">
+<meta property="og:image" content="https://customgpter.github.io/axiom/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two Axiom screens, the calculator and a graph, beside the Axiom name">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/literata-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css?v=1">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Axiom","url":"https://customgpter.github.io/axiom/","description":"Axiom is a scientific calculator for Android with a textbook display, exact answers, algebra, equation solving, graphs, statistics, matrices and a unit converter. Free, no adverts, no account. It cannot go online.","applicationCategory":"UtilitiesApplication","operatingSystem":"Android 12 or later","softwareVersion":"1.0","downloadUrl":"https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Axiom","url":"https://customgpter.github.io/axiom/","inLanguage":"en-GB"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Axiom really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription, no trial and no adverts, and nothing in the app is locked."}},{"@type":"Question","name":"Is Axiom on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. It is downloaded from this site as an Android app file. Android asks you to allow the install the first time."}},{"@type":"Question","name":"Does it need the internet?","acceptedAnswer":{"@type":"Answer","text":"No. Axiom has no internet permission, so it cannot go online at all. Everything, including algebra and graphs, works on the phone."}},{"@type":"Question","name":"Which phones does it run on?","acceptedAnswer":{"@type":"Answer","text":"Phones and tablets with Android 12 or later."}},{"@type":"Question","name":"How accurate is it?","acceptedAnswer":{"@type":"Answer","text":"Whole numbers and fractions are worked exactly. Roots, π and trigonometry are kept exact and turned into a decimal only for display, to the number of figures you choose. Graph readings and the triangle solver give rounded answers."}},{"@type":"Question","name":"Can it take a photo of a sum?","acceptedAnswer":{"@type":"Answer","text":"No. Sums are typed. Reading sums from photos is unreliable, and a wrong reading gives a wrong answer that looks right."}},{"@type":"Question","name":"How do I move to a new phone?","acceptedAnswer":{"@type":"Answer","text":"In Settings, Backup, save a backup file. Install Axiom on the new phone and restore from that file."}},{"@type":"Question","name":"Can I see the source code?","acceptedAnswer":{"@type":"Answer","text":"Yes. It is published in full at github.com/CustomGPTer/axiom."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="Axiom home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#0f1115"/><circle cx="54" cy="36" r="9" fill="#6c9bff"/><circle cx="35" cy="69" r="9" fill="#f3f5f8"/><circle cx="73" cy="69" r="9" fill="#f3f5f8"/></svg><span>Axiom</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="releases.html">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+</div>
+</header>
+<main id="main">
+<div class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<h1>The answer, and proof it is right.</h1>
+<p class="lede">Axiom is a scientific calculator for Android. It draws sums the way you write them, keeps answers exact, and tells you plainly whether an answer is exact or rounded.</p>
+<p class="lede">It also does algebra, solves equations with the working shown, draws graphs, and converts units. It is free, with no adverts and nothing to unlock, and it cannot go online.</p>
+<p class="get"><a class="button" href="https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk">Download for Android</a></p>
+<p class="facts">Free, with nothing to unlock. Android 12 or later. No ads, no accounts. <a href="releases.html">Release notes</a></p>
+<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
+</div>
+<figure class="hero-shot"><img src="assets/shots/calculate.webp" width="540" height="1170" alt="The Axiom calculator showing sin 15 as 0.2588190451, with the exact form, root 6 minus root 2 over 4, underneath"></figure>
+</div>
+</div>
+
+<section id="how" aria-labelledby="how-h">
+<div class="wrap">
+<h2 id="how-h">How it works</h2>
+<p class="intro">Most calculator apps give you a decimal and leave you to trust it. Axiom is built round three ideas.</p>
+<ol class="steps">
+<li><h3>Type it as you write it</h3><p>Fractions, roots and powers are drawn as they are on paper, and the answer appears as you type. One label on each key, with a second layer one press away.</p></li>
+<li><h3>Exact first</h3><p>Whole numbers and fractions never touch rounded arithmetic, so 0.1 + 0.2 is 0.3. Roots and π stay exact until the last moment.</p></li>
+<li><h3>Checked before it is shown</h3><p>Every decimal is worked out twice. Every exact form is typed back in and compared. Anything that fails a check is not shown.</p></li>
+</ol>
+</div>
+</section>
+
+<section id="screens" aria-labelledby="screens-h">
+<div class="wrap">
+<h2 id="screens-h">What it looks like</h2>
+<p class="intro">Clean keys, a display that reads like a textbook, and a mode for each kind of work.</p>
+<ul class="shots"><li><figure><img src="assets/shots/calculate.webp" width="540" height="1170" alt="Calculate: Sums drawn as they are written on paper, with the exact form under the decimal."><figcaption><strong>Calculate</strong>Sums drawn as they are written on paper, with the exact form under the decimal.</figcaption></figure></li><li><figure><img src="assets/shots/algebra.webp" width="540" height="1170" alt="Algebra: Type a sum with x in it and Axiom simplifies it."><figcaption><strong>Algebra</strong>Type a sum with x in it and Axiom simplifies it.</figcaption></figure></li><li><figure><img src="assets/shots/more.webp" width="540" height="1170" alt="More: Factorise, expand, differentiate, integrate and find the zeros from one button." loading="lazy"><figcaption><strong>More</strong>Factorise, expand, differentiate, integrate and find the zeros from one button.</figcaption></figure></li><li><figure><img src="assets/shots/graph.webp" width="540" height="1170" alt="Graph: Up to four curves. Find where they cross the axis, turn and meet." loading="lazy"><figcaption><strong>Graph</strong>Up to four curves. Find where they cross the axis, turn and meet.</figcaption></figure></li><li><figure><img src="assets/shots/equations.webp" width="540" height="1170" alt="Equations: Quadratics, cubics and simultaneous equations, with the working." loading="lazy"><figcaption><strong>Equations</strong>Quadratics, cubics and simultaneous equations, with the working.</figcaption></figure></li><li><figure><img src="assets/shots/statistics.webp" width="540" height="1170" alt="Statistics: Type a list of values and every statistic is worked out at once." loading="lazy"><figcaption><strong>Statistics</strong>Type a list of values and every statistic is worked out at once.</figcaption></figure></li><li><figure><img src="assets/shots/matrix.webp" width="540" height="1170" alt="Matrix: Determinant, inverse and products, with fractions kept exact." loading="lazy"><figcaption><strong>Matrix</strong>Determinant, inverse and products, with fractions kept exact.</figcaption></figure></li><li><figure><img src="assets/shots/units.webp" width="540" height="1170" alt="Unit converter: Type a value once and see it in every unit." loading="lazy"><figcaption><strong>Unit converter</strong>Type a value once and see it in every unit.</figcaption></figure></li><li><figure><img src="assets/shots/triangle.webp" width="540" height="1170" alt="Triangle solver: Any three measurements give the rest, including both answers when there are two." loading="lazy"><figcaption><strong>Triangle solver</strong>Any three measurements give the rest, including both answers when there are two.</figcaption></figure></li><li><figure><img src="assets/shots/theme.webp" width="540" height="1170" alt="Themes: Eight themes and six accent colours." loading="lazy"><figcaption><strong>Themes</strong>Eight themes and six accent colours.</figcaption></figure></li></ul>
+<figure class="wide-shot"><img src="assets/shots/landscape.webp" width="1040" height="480" alt="Axiom on its side: the sum on the left and the full keypad on the right" loading="lazy"><figcaption>On its side, the keys sit beside the sum. Tablets use the same layout.</figcaption></figure>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">Everything is in, and all of it is free</h2>
+<p class="intro">You can use Axiom as a plain calculator and never open another mode. The rest is there when you need it.</p>
+<dl class="features">
+<div><dt>Textbook display</dt><dd>Fractions are stacked, roots stretch over what they cover and powers are raised. What you see is what you would write.</dd></div>
+<div><dt>Exact answers</dt><dd>Fractions, roots and π stay exact: sin 15° is (√6 − √2)/4 as well as 0.2588190451. One tap switches between the two.</dd></div>
+<div><dt>An honest equals sign</dt><dd>An exact answer is shown with =. A rounded one is shown with ≈. You always know which you are looking at.</dd></div>
+<div><dt>Errors in plain English</dt><dd>A mistake is underlined where it is, with a sentence that says what is wrong. No “Syntax ERROR”.</dd></div>
+<div><dt>Algebra</dt><dd>Simplify, expand, factorise, differentiate and integrate formulas in x, y and z.</dd></div>
+<div><dt>Equations with working</dt><dd>Quadratics, cubics, and two or three simultaneous equations, with the steps shown.</dd></div>
+<div><dt>Graphs</dt><dd>Plot up to four formulas. Drag, pinch, read a curve, and find crossings and turning points. A table of values is one tap away.</dd></div>
+<div><dt>Statistics</dt><dd>Mean, median, mode, quartiles, and both standard deviations of a list, with totals and averages exact.</dd></div>
+<div><dt>Matrices</dt><dd>Up to 4 × 4: determinant, inverse, transpose, sums and products.</dd></div>
+<div><dt>Complex numbers</dt><dd>Any sum with i in it is worked as a complex number, and its size and angle are shown.</dd></div>
+<div><dt>Base-N</dt><dd>Binary, octal, decimal and hexadecimal sums with AND, OR, XOR and NOT.</dd></div>
+<div><dt>Your own functions</dt><dd>Save any formula in x as f, g, h and so on, then use it like sin or log.</dd></div>
+<div><dt>Memories and history</dt><dd>Six memories that survive closing the app, and a searchable history with pins and no limit.</dd></div>
+<div><dt>Unit converter</dt><dd>Twelve kinds of unit. Every factor is the exact legal definition, so a mile is 1,609.344 metres exactly.</dd></div>
+<div><dt>Shapes and triangles</dt><dd>Areas and volumes of twelve shapes with answers such as 45π, and a solver for any triangle.</dd></div>
+<div><dt>Constants and formulas</dt><dd>Twenty-two physical constants at their 2022 recommended values, and seven sheets of formulas.</dd></div>
+<div><dt>Home-screen widget</dt><dd>A small calculator for everyday sums, with the same exact arithmetic.</dd></div>
+<div><dt>Backup</dt><dd>One file holds your history, memories, functions and settings. Keep it anywhere or move it to a new phone.</dd></div>
+<div><dt>Phones and tablets</dt><dd>Works upright and on its side. On a tablet the keys sit beside the working area.</dd></div>
+<div><dt>Accessible</dt><dd>Every key and answer is labelled for TalkBack, text follows your phone&#x27;s size setting, and there is a stronger-contrast option.</dd></div>
+</dl>
+</div>
+</section>
+
+<section id="checked" aria-labelledby="checked-h">
+<div class="wrap">
+<h2 id="checked-h">How the answers are kept right</h2>
+<p class="intro">A calculator is only worth having if you can trust it. These checks run on every build and inside the app as you use it.</p>
+<ul class="plain">
+<li><h3>4,000 known answers</h3><p>Every build must match 4,000 sums whose answers were worked out by a separate maths library, to 15 figures.</p></li>
+<li><h3>Every decimal twice</h3><p>A decimal is worked out a second time at double the precision and shown only when both agree to 30 figures.</p></li>
+<li><h3>Exact forms typed back</h3><p>An exact form such as (√6 − √2)/4 is typed back through the calculator and compared with the original before it is shown.</p></li>
+<li><h3>Algebra tested by numbers</h3><p>A simplified formula, derivative or integral is shown only if it agrees with what you typed at several test points.</p></li>
+<li><h3>Answers put back</h3><p>The solution of an equation is put back into the equation, and an inverse matrix is multiplied back by the original.</p></li>
+<li><h3>More known answers</h3><p>1,000 complex sums, 300 matrices, 400 sets of statistics and 1,500 base-N sums are checked the same way.</p></li>
+</ul>
+</div>
+</section>
+
+<section id="permissions" aria-labelledby="permissions-h">
+<div class="wrap">
+<h2 id="permissions-h">What it asks of your phone</h2>
+<p class="intro">Nothing. Axiom asks for no permissions at all: not the internet, not your files, not your camera.</p>
+<div class="scroll">
+<table>
+<thead><tr><th scope="col">Access</th><th scope="col">What Axiom does with it</th><th scope="col">What it never does</th></tr></thead>
+<tbody>
+<tr><th scope="row">Internet</th><td>Axiom has no internet permission. Android itself stops it going online.</td><td>Send anything anywhere, show adverts or check for updates.</td></tr>
+<tr><th scope="row">Files</th><td>Only the one backup file you choose to save or open, through Android's own file picker.</td><td>Look at any other file on your phone.</td></tr>
+<tr><th scope="row">Clipboard</th><td>Copies an answer when you hold it.</td><td>Read what you have copied elsewhere.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="after-table">The detail is in the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+</section>
+
+<section id="questions" aria-labelledby="questions-h">
+<div class="wrap">
+<h2 id="questions-h">Questions</h2>
+<div class="faq">
+<div><h3>Is Axiom really free?</h3><p>Yes. There is no paid version, no subscription, no trial and no adverts, and nothing in the app is locked.</p></div>
+<div><h3>Is Axiom on Google Play?</h3><p>No. It is downloaded from this site as an Android app file. Android asks you to allow the install the first time.</p></div>
+<div><h3>Does it need the internet?</h3><p>No. Axiom has no internet permission, so it cannot go online at all. Everything, including algebra and graphs, works on the phone.</p></div>
+<div><h3>Which phones does it run on?</h3><p>Phones and tablets with Android 12 or later.</p></div>
+<div><h3>How accurate is it?</h3><p>Whole numbers and fractions are worked exactly. Roots, π and trigonometry are kept exact and turned into a decimal only for display, to the number of figures you choose. Graph readings and the triangle solver give rounded answers.</p></div>
+<div><h3>Can it take a photo of a sum?</h3><p>No. Sums are typed. Reading sums from photos is unreliable, and a wrong reading gives a wrong answer that looks right.</p></div>
+<div><h3>How do I move to a new phone?</h3><p>In Settings, Backup, save a backup file. Install Axiom on the new phone and restore from that file.</p></div>
+<div><h3>Can I see the source code?</h3><p>Yes. It is published in full at <a href="https://github.com/CustomGPTer/axiom">github.com/CustomGPTer/axiom</a>.</p></div>
+</div>
+</div>
+</section>
+
+<section id="get" aria-labelledby="get-h">
+<div class="wrap"><div class="measure">
+<h2 id="get-h">Getting Axiom</h2>
+<p>Axiom is a personal project and is free, with no paid version. It is downloaded from this site as an Android app file and is not on Google Play. It runs on phones and tablets with Android 12 or later.</p>
+<p class="get"><a class="button" href="https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk">Download for Android</a></p>
+<p>When you download, Chrome may warn that the file might be harmful. It shows this warning for app files that do not come from Google Play; choose Download anyway. If you want to be sure the file is the real one, compare it with the checksum in the <a href="releases.html#checking">release notes</a>.</p>
+<p>Open the downloaded file to install it. The first time, Android asks you to allow your browser to install apps. Google Play Protect may also step in, because Axiom is an app it has not seen before: choose More details, then Install anyway. To update, install the latest version over the one you have: your history, memories and settings are kept. What changed in each version is in the <a href="releases.html">release notes</a>.</p>
+<p class="note">Axiom is checked with care, but no calculator should be the only check on a result that safety or money depends on. See the <a href="terms.html">terms of use</a>.</p>
+</div></div>
+</section>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<p>&copy; 2026 Jonathan Jackson. Axiom is an independent app.</p>
+<p>This site uses no cookies and no tracking. It is set in Literata and Atkinson Hyperlegible.</p>
+</div>
+<nav aria-label="Footer"><ul>
+<li><a href="./">Home</a></li>
+<li><a href="releases.html">Release notes</a></li>
+<li><a href="more-apps.html">More apps</a></li>
+<li><a href="privacy.html">Privacy policy</a></li>
+<li><a href="terms.html">Terms of use</a></li>
+<li><a href="licences.html">Licences</a></li>
+<li><a href="https://github.com/CustomGPTer/axiom">Source code</a></li>
+<li><a href="https://github.com/CustomGPTer/axiom/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
