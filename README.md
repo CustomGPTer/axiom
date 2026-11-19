@@ -7,7 +7,7 @@ Author: Jonathan Jackson
 
 - Website and download: https://customgpter.github.io/axiom/
 - Latest app file: https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk
-- The website's own files are in `docs/`.
+- The website's own files are in `docs/`. They are written by `python3 site-src/gen.py`.
 
 ## Layout of the project
 
