@@ -4,80 +4,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Axiom release notes</title>
-<meta name="description" content="What is in each version of the Axiom scientific calculator for Android, and how to check your download.">
+<meta name="description" content="What changed in each version of Axiom, with the file size and checksum to check your download.">
 <meta name="author" content="Jonathan Jackson">
 <link rel="canonical" href="https://customgpter.github.io/axiom/releases.html">
-<meta name="theme-color" content="#f4f5f8" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f5fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1016" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Axiom">
 <meta property="og:title" content="Axiom release notes">
-<meta property="og:description" content="What is in each version of the Axiom scientific calculator for Android, and how to check your download.">
+<meta property="og:description" content="What changed in each version of Axiom, with the file size and checksum to check your download.">
 <meta property="og:url" content="https://customgpter.github.io/axiom/releases.html">
 <meta property="og:image" content="https://customgpter.github.io/axiom/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Two Axiom screens, the calculator and a graph, beside the Axiom name">
+<meta property="og:image:alt" content="Axiom&#x27;s calculator showing sin 15 degrees as an exact form and a decimal">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="preload" href="assets/fonts/literata-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css?v=1">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead">
 <div class="wrap">
 <a class="brand" href="./" aria-label="Axiom home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#0f1115"/><circle cx="54" cy="36" r="9" fill="#6c9bff"/><circle cx="35" cy="69" r="9" fill="#f3f5f8"/><circle cx="73" cy="69" r="9" fill="#f3f5f8"/></svg><span>Axiom</span></a>
-<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="releases.html">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
 </div>
 </header>
 <main id="main" class="doc">
 <div class="wrap">
 <div class="measure">
 <h1>Release notes</h1>
-<p class="lede">What was added, improved and fixed in each version of Axiom, newest first. The current version is 1.0.</p>
-<div class="get">
-<a class="button" href="https://github.com/CustomGPTer/axiom/releases/latest/download/Axiom.apk">Download the latest version</a>
-<p class="facts">Version 1.0. Android app file, 22.4 MB. Android 12 or later. Free.</p>
-<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway. To be sure of the file, see <a href="#checking">Checking your download</a>.</p>
-</div>
-<nav class="contents" aria-label="Versions"><strong>Versions</strong><ul><li><a href="#v1-0">1.0&ensp;First release</a></li></ul></nav>
-
-<article class="release" id="v1-0">
-<p class="ver">Version 1.0</p>
-<h2>First release</h2>
-<h3>Included</h3>
-<ul><li>Calculator with a textbook display, a live answer as you type, exact fractions, roots and π, and plain-English errors that point at the mistake.</li><li>Algebra with x, y and z: simplify, expand, factorise, differentiate, integrate and find zeros.</li><li>Equation solvers for quadratics, cubics, and two or three simultaneous equations, with the working.</li><li>Graphs of up to four formulas, with crossings, turning points and a table of values.</li><li>Statistics, matrices up to 4 × 4, complex numbers, and base-N sums.</li><li>Six memories, your own functions, and unlimited history with search and pins.</li><li>Unit converter, areas and volumes, triangle solver, constants and formula sheets.</li><li>Eight themes, six accent colours and a stronger-contrast option.</li><li>A home-screen widget, backup to a single file, and layouts for phones on their side and tablets.</li></ul>
-<h3>Good to know</h3>
-<ul>
-<li>The first root or sine after opening the app can take a moment while the algebra engine loads.</li>
-<li>Graph readings and triangle answers are rounded. Everything else says whether it is exact or rounded.</li>
-</ul>
-</article>
-
+<p class="lede">What changed in each version of Axiom. The newest is at the top.</p>
+<section class="release" id="v1.0"><h2><span class="ver">Version 1.0</span> <span class="when">19 November 2026</span><span class="tag">Latest</span></h2><ul><li>Calculator with a textbook display, a live answer as you type, exact fractions, roots and π, and plain-English errors that point at the mistake.</li><li>Algebra with x, y and z: simplify, expand, factorise, differentiate, integrate and find zeros.</li><li>Equation solvers for quadratics, cubics, and two or three simultaneous equations, with the working.</li><li>Graphs of up to four formulas, with crossings, turning points and a table of values.</li><li>Statistics, matrices up to 4 × 4, complex numbers, and base-N sums.</li><li>Six memories, your own functions, and unlimited history with search and pins.</li><li>Unit converter, areas and volumes, triangle solver, constants and formula sheets.</li><li>Eight themes, six accent colours and a stronger-contrast option.</li><li>A home-screen widget, backup to a single file, and layouts for phones on their side and tablets.</li><li>The first root or sine after opening the app can take a moment while the algebra engine loads.</li><li>Graph readings and triangle answers are rounded. Everything else says whether it is exact or rounded.</li></ul></section>
 <h2 id="checking">Checking your download</h2>
-<p>Every version is signed with the same key, so Android will only install an update that comes from the same developer. If you want to check the file yourself, its SHA-256 checksum should be:</p>
-<p><code>bfba8d35b88a441f3f788168a263f7a57d46a6e899f52fad334d39c2715d7de8</code></p>
-<p>The signing certificate's SHA-256 fingerprint is <code>72a86c01732e8ee1811daa7d1bf2c5fcbe426d90fe9dab5e0d934365a0df6d30</code>.</p>
+<p>The file for version 1.0 is called <code>Axiom.apk</code>. It is 23 MB (23,477,202 bytes). Its SHA-256 checksum is:</p>
+<p><code class="sum">bfba8d35b88a441f3f788168a263f7a57d46a6e899f52fad334d39c2715d7de8</code></p>
+<p>On Windows, run <code>certutil -hashfile Axiom.apk SHA256</code> and compare. Every version is signed with the same key, so each one installs over the last and keeps what you have saved.</p>
+<p>Older versions are on the <a href="https://github.com/CustomGPTer/axiom/releases">GitHub releases page</a>.</p>
 </div>
 </div>
 </main>
 <footer class="colophon">
 <div class="wrap">
 <div>
+<a class="brand" href="./" aria-label="Axiom home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#0f1115"/><circle cx="54" cy="36" r="9" fill="#6c9bff"/><circle cx="35" cy="69" r="9" fill="#f3f5f8"/><circle cx="73" cy="69" r="9" fill="#f3f5f8"/></svg><span>Axiom</span></a>
 <p>&copy; 2026 Jonathan Jackson. Axiom is an independent app.</p>
-<p>This site uses no cookies and no tracking. It is set in Literata and Atkinson Hyperlegible.</p>
+<p>This site uses no cookies and no tracking.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
 </div>
-<nav aria-label="Footer"><ul>
+<nav aria-label="The app"><h2>The app</h2><ul>
 <li><a href="./">Home</a></li>
-<li><a href="releases.html">Release notes</a></li>
-<li><a href="more-apps.html">More apps</a></li>
-<li><a href="privacy.html">Privacy policy</a></li>
-<li><a href="terms.html">Terms of use</a></li>
-<li><a href="licences.html">Licences</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
 <li><a href="https://github.com/CustomGPTer/axiom/issues">Contact</a></li>
 </ul></nav>
 </div>
